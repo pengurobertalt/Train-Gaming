@@ -1,0 +1,180 @@
+<html>
+<head>
+	<title>Game Menu</title>
+	<style>
+		.game-menu {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 24px;
+			justify-content: center;
+			margin-top: 40px;
+		}
+		.game-btn {
+			border: none;
+			background: none;
+			cursor: pointer;
+			padding: 0;
+			transition: transform 0.2s;
+		}
+		.game-btn:hover img {
+			transform: scale(1.08);
+			box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+		}
+		.game-img {
+			width: 160px;
+			height: 160px;
+			object-fit: cover;
+			border-radius: 16px;
+			border: 2px solid #eee;
+		}
+		.game-label {
+			text-align: center;
+			margin-top: 8px;
+			font-size: 18px;
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<input type="text" id="searchBar" placeholder="Search games..." style="display:block;margin:20px auto 24px auto;width:320px;padding:10px;font-size:18px;border-radius:8px;border:1px solid #ccc;" onkeyup="filterGames()" />
+	<div class="game-menu" id="gameMenu">
+		<!-- Example game button, edit src and onclick as needed -->
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='/level-devil-main/level-devil-main/index.html'">
+				<img src="/images/level-devil.avif" alt="level-Devil" class="game-img" />
+			</button>
+			<div class="game-label">Level-Devil</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='/Monkey Mart/index (4).html'">
+				<img src="assets/sfx/subway-surfers.png" alt="Subway Surfers" class="game-img" />
+			</button>
+			<div class="game-label">Subway Surfers</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='railroad-tycoon.html'">
+				<img src="assets/sfx/railroad-tycoon.png" alt="Railroad Tycoon" class="game-img" />
+			</button>
+			<div class="game-label">Railroad Tycoon</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='mini-metro.html'">
+				<img src="assets/sfx/mini-metro.png" alt="Mini Metro" class="game-img" />
+			</button>
+			<div class="game-label">Mini Metro</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='train-valley.html'">
+				<img src="assets/sfx/train-valley.png" alt="Train Valley" class="game-img" />
+			</button>
+			<div class="game-label">Train Valley</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='ticket-to-ride.html'">
+				<img src="assets/sfx/ticket-to-ride.png" alt="Ticket to Ride" class="game-img" />
+			</button>
+			<div class="game-label">Ticket to Ride</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='train-conductor.html'">
+				<img src="assets/sfx/train-conductor.png" alt="Train Conductor" class="game-img" />
+			</button>
+			<div class="game-label">Train Conductor</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='locomotion.html'">
+				<img src="assets/sfx/locomotion.png" alt="Locomotion" class="game-img" />
+			</button>
+			<div class="game-label">Locomotion</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='trainz.html'">
+				<img src="assets/sfx/trainz.png" alt="Trainz" class="game-img" />
+			</button>
+			<div class="game-label">Trainz</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='unrailed.html'">
+				<img src="assets/sfx/unrailed.png" alt="Unrailed!" class="game-img" />
+			</button>
+			<div class="game-label">Unrailed!</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='metro-express.html'">
+				<img src="assets/sfx/metro-express.png" alt="Metro Express" class="game-img" />
+			</button>
+			<div class="game-label">Metro Express</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='steam-rails.html'">
+				<img src="assets/sfx/steam-rails.png" alt="Steam Rails" class="game-img" />
+			</button>
+			<div class="game-label">Steam Rails</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='express-lanes.html'">
+				<img src="assets/sfx/express-lanes.png" alt="Express Lanes" class="game-img" />
+			</button>
+			<div class="game-label">Express Lanes</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='cargo-train.html'">
+				<img src="assets/sfx/cargo-train.png" alt="Cargo Train" class="game-img" />
+			</button>
+			<div class="game-label">Cargo Train</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='bullet-train.html'">
+				<img src="assets/sfx/bullet-train.png" alt="Bullet Train" class="game-img" />
+			</button>
+			<div class="game-label">Bullet Train</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='train-puzzle.html'">
+				<img src="assets/sfx/train-puzzle.png" alt="Train Puzzle" class="game-img" />
+			</button>
+			<div class="game-label">Train Puzzle</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='track-builder.html'">
+				<img src="assets/sfx/track-builder.png" alt="Track Builder" class="game-img" />
+			</button>
+			<div class="game-label">Track Builder</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='train-rush.html'">
+				<img src="assets/sfx/train-rush.png" alt="Train Rush" class="game-img" />
+			</button>
+			<div class="game-label">Train Rush</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='railway-empire.html'">
+				<img src="assets/sfx/railway-empire.png" alt="Railway Empire" class="game-img" />
+			</button>
+			<div class="game-label">Railway Empire</div>
+		</div>
+		<div class="game-item">
+			<button class="game-btn" onclick="window.location.href='train-adventure.html'">
+				<img src="assets/sfx/train-adventure.png" alt="Train Adventure" class="game-img" />
+			</button>
+			<div class="game-label">Train Adventure</div>
+		</div>
+	</div>
+	<script>
+	function filterGames() {
+		var input = document.getElementById('searchBar');
+		var filter = input.value.toLowerCase();
+		var menu = document.getElementById('gameMenu');
+		var items = menu.getElementsByClassName('game-item');
+		for (var i = 0; i < items.length; i++) {
+			var label = items[i].getElementsByClassName('game-label')[0];
+			if (label.textContent.toLowerCase().indexOf(filter) > -1) {
+				items[i].style.display = '';
+			} else {
+				items[i].style.display = 'none';
+			}
+		}
+	}
+	</script>
+</body>
+</html>
