@@ -87,6 +87,7 @@ body.sidebar-closed .main {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .news-link {
@@ -101,7 +102,9 @@ body.sidebar-closed .main {
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
-    width: 250px;
+    width: 280px;
+    max-width: 100%;
+    flex: 1 1 280px;
 }
 
 .news-card:hover {
@@ -121,6 +124,24 @@ body.sidebar-closed .main {
     color: #333;
     font-size: 18px;
     text-align: center;
+}
+
+/* Responsive design for news cards */
+@media (max-width: 768px) {
+    .news-container {
+        gap: 15px;
+    }
+    
+    .news-card {
+        width: 100%;
+        flex: 1 1 100%;
+        max-width: 350px;
+    }
+    
+    .news-card h3 {
+        font-size: 16px;
+        padding: 12px;
+    }
 }
 
 .content-section {
