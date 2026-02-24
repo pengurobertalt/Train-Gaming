@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <div id="loading" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 24px; color: white; background-color: rgba(0, 123, 255, 0.8); padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); z-index: 1000;">Loading...</div>
   <div class="sidebar">
     <button id="toggleSidebar">☰</button>
     <ul>
@@ -14,6 +15,23 @@
   </div>
   <div class="main">
     <center><p class="title">Train Gaming</p></center>
+    <div class="news">
+      <h2>Latest News</h2>
+      <div class="news-container">
+        <a href="/news/news1.html" class="news-link">
+          <div class="news-card">
+            <img src="/images/Controller.png" alt="Level Devil Game">
+            <h3>Game Adding</h3>
+          </div>
+        </a>
+        <a href="/news/" class="news-link">
+          <div class="news-card">
+            <img src="images/snowrider3d.png" alt="Snow Rider 3D Game">
+            <h3>Featured: Snow Rider 3D</h3>
+          </div>
+        </a>
+      </div>
+    </div>
   </div>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -33,6 +51,11 @@
         }
       });
     });
+  </script>
+  <script>
+    setTimeout(function() {
+      document.getElementById('loading').style.display = 'none';
+    }, 2000);
   </script>
 </body>
 </html>
