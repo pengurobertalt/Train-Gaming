@@ -63,5 +63,27 @@
       document.getElementById('loading').style.display = 'none';
     }, 2000);
   </script>
+  <script>
+    // Handle image loading errors
+    document.addEventListener('DOMContentLoaded', function() {
+      const images = document.querySelectorAll('.news-card img');
+      images.forEach(img => {
+        img.addEventListener('error', function() {
+          this.style.display = 'none';
+          // Optionally add a placeholder or fallback
+          const fallback = document.createElement('div');
+          fallback.style.width = '100%';
+          fallback.style.height = '150px';
+          fallback.style.backgroundColor = '#ddd';
+          fallback.style.display = 'flex';
+          fallback.style.alignItems = 'center';
+          fallback.style.justifyContent = 'center';
+          fallback.style.color = '#666';
+          fallback.textContent = 'Image not available';
+          this.parentNode.insertBefore(fallback, this);
+        });
+      });
+    });
+  </script>
 </body>
 </html>
