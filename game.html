@@ -2,6 +2,23 @@
 <head>
 	<title>Game Menu</title>
 	<style>
+		.back-btn {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			background-color: #007bff;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+			transition: background-color 0.3s;
+		}
+		.back-btn:hover {
+			background-color: #0056b3;
+		}
 		.game-menu {
 			display: flex;
 			flex-wrap: wrap;
@@ -36,6 +53,7 @@
 	</style>
 </head>
 <body>
+	<button onclick="window.location.href='index.html'" class="back-btn">Back</button>
 	<input type="text" id="searchBar" placeholder="Search games..." style="display:block;margin:20px auto 24px auto;width:320px;padding:10px;font-size:18px;border-radius:8px;border:1px solid #ccc;" onkeyup="filterGames()" />
 	<div class="game-menu" id="gameMenu">
 		<!-- Example game button, edit src and onclick as needed -->
