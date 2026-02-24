@@ -1,4 +1,39 @@
 <html>
+<head>
   <title>Train Gaming</title>
-  <center><p class="title">Train Gaming</p></center>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="sidebar">
+    <button id="toggleSidebar">☰</button>
+    <h2>Games</h2>
+    <ul>
+      <li><a href="/game.html">Games</a></li>
+      <li><a href="">Chat</a></li>
+      <li><a href="/Suggest.html">Suggest A Game</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <center><p class="title">Train Gaming</p></center>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const button = document.getElementById('toggleSidebar');
+      button.addEventListener('click', function() {
+        document.body.classList.toggle('sidebar-closed');
+        if (document.body.classList.contains('sidebar-closed')) {
+          button.style.position = 'fixed';
+          button.style.top = '10px';
+          button.style.left = '10px';
+          button.style.right = 'auto';
+        } else {
+          button.style.position = 'absolute';
+          button.style.top = '10px';
+          button.style.right = '10px';
+          button.style.left = 'auto';
+        }
+      });
+    });
+  </script>
+</body>
 </html>
