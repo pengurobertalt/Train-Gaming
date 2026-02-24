@@ -8526,7 +8526,7 @@ var my4399UnityModule = (function() {
                 }
                 var imagePlugin = {};
                 imagePlugin["canHandle"] = function imagePlugin_canHandle(name) {
-                    return !Module.noImageDecoding && /\.(jpg|jpeg|png|bmp)$/i.test(name)
+                    return !Module.noImageDecoding && /\.(jpg|jpeg|png|bmp|avif)$/i.test(name)
                 };
                 imagePlugin["handle"] = function imagePlugin_handle(byteArray, name, onload, onerror) {
                     var b = null;
@@ -8850,6 +8850,7 @@ var my4399UnityModule = (function() {
                     "jpeg": "image/jpeg",
                     "png": "image/png",
                     "bmp": "image/bmp",
+                    "avif": "image/avif",
                     "ogg": "audio/ogg",
                     "wav": "audio/wav",
                     "mp3": "audio/mpeg"

@@ -569,7 +569,8 @@
                 window.unityGame = window.UnityLoader.instantiate("game", w.a.unityWebglBuildUrl, {
                     onProgress: a,
                     Module: {
-                        onRuntimeInitialized: r
+                        onRuntimeInitialized: r,
+                        progressLogoUrl: w.a.thumbnail
                     }
                 })
             }), document.body.appendChild(n)
