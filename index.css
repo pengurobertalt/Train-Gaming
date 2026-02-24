@@ -1,5 +1,10 @@
+body {
+    background-color: #99a2aa;
+}
+
 .title{
-    font-size: 120px;
+    font-size: 100px;
+    margin-top: -30px;
 }
 
 .sidebar {
@@ -8,7 +13,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    background-color: #f0f0f0;
+    background-color: #e0e0e0;
     padding: 20px;
     box-sizing: border-box;
     transition: width 0.5s, padding 0.5s;

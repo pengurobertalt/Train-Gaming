@@ -53,6 +53,7 @@
 	</style>
 </head>
 <body>
+	<div id="loading" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 24px; color: white; background-color: rgba(0, 123, 255, 0.8); padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); z-index: 1000;">Loading...</div>
 	<button onclick="window.location.href='index.html'" class="back-btn">Back</button>
 	<input type="text" id="searchBar" placeholder="Search games..." style="display:block;margin:20px auto 24px auto;width:320px;padding:10px;font-size:18px;border-radius:8px;border:1px solid #ccc;" onkeyup="filterGames()" />
 	<div class="game-menu" id="gameMenu">
@@ -193,6 +194,11 @@
 			}
 		}
 	}
+	</script>
+	<script>
+		setTimeout(function() {
+			document.getElementById('loading').style.display = 'none';
+		}, 2000);
 	</script>
 </body>
 </html>
