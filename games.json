@@ -3,60 +3,88 @@
     "name": "Level-Devil",
     "path": "/level-devil-main/level-devil-main/index.html",
     "image": "/images/level-devil.avif",
-    "dateAdded": "2024-02-20"
+    "dateAdded": "2024-01-10"
   },
   {
     "name": "Snow Rider 3D",
     "path": "/Snow-Rider3D-main/Snow-Rider3D-main/index.html",
     "image": "/images/snowrider3d.png",
-    "dateAdded": "2024-02-15"
+    "dateAdded": "2024-01-10"
   },
   {
     "name": "Subway Surfers",
     "path": "/subwaysurfer-main/subwaysurfer-main/index.html",
     "image": "/images/subwaysurfurs.jpeg",
-    "dateAdded": "2024-02-10"
+    "dateAdded": "2024-01-10"
   },
   {
     "name": "Drift Boss",
     "path": "/DriftBoss-gh-pages/DriftBoss-gh-pages/index.html",
     "image": "/images/driftboss.jpeg",
-    "dateAdded": "2024-02-05"
+    "dateAdded": "2024-02-24"
   },
   {
     "name": "10 Minutes Till Dawn",
     "path": "/10-Minutes-Till-Dawn-main/10-Minutes-Till-Dawn-main/index.html",
     "image": "/images/10minutestilldawn.png",
-    "dateAdded": "2024-02-01"
+    "dateAdded": "2024-02-24"
   },
   {
     "name": "BitLife",
     "path": "/bitlife-main/bitlife-main/index.html",
     "image": "/images/bitlife.png",
-    "dateAdded": "2024-01-25"
+    "dateAdded": "2024-02-24"
   },
   {
     "name": "Dino Game",
     "path": "/one-file-games/dino.html",
     "image": "/images/dino.png",
-    "dateAdded": "2024-01-20"
+    "dateAdded": "2024-02-24"
   },
   {
     "name": "Fluid",
     "path": "/fluid/index.html",
     "image": "/images/fluid.png",
-    "dateAdded": "2024-01-15"
+    "dateAdded": "2024-02-25"
   },
   {
     "name": "Stacktris",
     "path": "/stacktris-main/stacktris-main/index.html",
     "image": "/images/stacktris.jpeg",
-    "dateAdded": "2024-01-10"
+    "dateAdded": "2024-02-25"
   },
   {
     "name": "Slope",
     "path": "/Slope-Game-main/Slope-Game-main/index.html",
     "image": "/images/slope.jpg",
-    "dateAdded": "2024-01-05"
-  }
+    "dateAdded": "2024-02-25"  },
+  {
+    "name": "Lvl.lol",
+    "path": "/lvl-lol/index.html",
+    "image": "/images/lvl-lol.png",
+    "dateAdded": "2024-01-25"
+  },
+  {
+    "name": "A Difficult Game About Climbing",
+    "path": "/a-difficult-game-about-climbing/index.html",
+    "image": "/images/a-difficult-game-about-climbing.png",
+    "dateAdded": "2024-01-02"
+  },
+  {
+    "name": "Ace Attorney",
+    "path": "/ace-attorney/index.html",
+    "image": "/images/ace-attorney.png",
+    "dateAdded": "2024-01-03"
+  },
+  {
+    "name": "Bad Piggies",
+    "path": "/bad-piggies/index.html",
+    "image": "/images/bad-piggies.png",
+    "dateAdded": "2024-01-04"
+  },
+  {
+    "name": "Baldi's Basics",
+    "path": "/baldis-basics/index.html",
+    "image": "/images/baldis-basics.png",
+    "dateAdded": "2024-01-05"  }
 ]
