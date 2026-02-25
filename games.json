@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Level-Devil",
+    "path": "/level-devil-main/level-devil-main/index.html",
+    "image": "/images/level-devil.avif",
+    "dateAdded": "2024-02-20"
+  },
+  {
+    "name": "Snow Rider 3D",
+    "path": "/Snow-Rider3D-main/Snow-Rider3D-main/index.html",
+    "image": "/images/snowrider3d.png",
+    "dateAdded": "2024-02-15"
+  },
+  {
+    "name": "Subway Surfers",
+    "path": "/subwaysurfer-main/subwaysurfer-main/index.html",
+    "image": "/images/subwaysurfurs.jpeg",
+    "dateAdded": "2024-02-10"
+  },
+  {
+    "name": "Drift Boss",
+    "path": "/DriftBoss-gh-pages/DriftBoss-gh-pages/index.html",
+    "image": "/images/driftboss.jpeg",
+    "dateAdded": "2024-02-05"
+  },
+  {
+    "name": "10 Minutes Till Dawn",
+    "path": "/10-Minutes-Till-Dawn-main/10-Minutes-Till-Dawn-main/index.html",
+    "image": "/images/10minutestilldawn.png",
+    "dateAdded": "2024-02-01"
+  },
+  {
+    "name": "BitLife",
+    "path": "/bitlife-main/bitlife-main/index.html",
+    "image": "/images/bitlife.png",
+    "dateAdded": "2024-01-25"
+  }
+]
