@@ -34,5 +34,29 @@
     "path": "/bitlife-main/bitlife-main/index.html",
     "image": "/images/bitlife.png",
     "dateAdded": "2024-01-25"
+  },
+  {
+    "name": "Dino Game",
+    "path": "/one-file-games/dino.html",
+    "image": "/images/dino.png",
+    "dateAdded": "2024-01-20"
+  },
+  {
+    "name": "Bullet Force",
+    "path": "/bullet-force-main/bullet-force-main/index.html",
+    "image": "/images/bulletforce.png",
+    "dateAdded": "2024-01-15"
+  },
+  {
+    "name": "Car Parking Multiplayer",
+    "path": "/car-parking-multiplayer-main/car-parking-multiplayer-main/index.html",
+    "image": "/images/carparkingmultiplayer.png",
+    "dateAdded": "2024-01-10"
+  },
+  {
+    "name": "Clash of Clans",
+    "path": "/clash-of-clans-main/clash-of-clans-main/index.html",
+    "image": "/images/clashofclans.png",
+    "dateAdded": "2024-01-05"
   }
 ]
