@@ -93,5 +93,23 @@
     "path": "/drive-mad-main/drive-mad-main/index.html",
     "image": "/images/drivemad.png",
     "dateAdded": "2024-02-26"
+  },
+  {
+    "name": "Jelly Truck",
+    "path": "/JellyTruckUnblocked.github.io-main/JellyTruckUnblocked.github.io-main/index.html",
+    "image": "/images/jellytruck.jpeg",
+    "dateAdded": "2024-02-26"
+  },
+  {
+    "name": "Happy Wheels",
+    "path": "/happy-wheels/index.html",
+    "image": "/images/happywheels.png",
+    "dateAdded": "2024-01-08"
+  },
+  {
+    "name": "Hollow Knight",
+    "path": "/hollow-knight/index.html",
+    "image": "/images/hollowknight.png",
+    "dateAdded": "2024-01-09"
   }
 ]
