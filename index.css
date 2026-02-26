@@ -275,3 +275,45 @@ body.sidebar-closed .main {
 .suggest-button:hover {
     background-color: #0056b3;
 }
+
+.game-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    margin: 10px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+}
+
+.game-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.game-card h4 {
+    padding: 15px 15px 5px;
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.game-card p {
+    padding: 0 15px 15px;
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.game-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}

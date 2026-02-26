@@ -19,7 +19,7 @@
   },
   {
     "name": "Drift Boss",
-    "path": "/DriftBoss-gh-pages/DriftBoss-gh-pages/index.html",
+    "path": "/DriftBoss-gh-pages/index.html",
     "image": "/images/driftboss.jpeg",
     "dateAdded": "2024-02-24"
   },
@@ -55,7 +55,7 @@
   },
   {
     "name": "Slope",
-    "path": "/Slope-Game-main/Slope-Game-main/index.html",
+    "path": "/Slope-Game-main/index.html",
     "image": "/images/slope.jpg",
     "dateAdded": "2024-02-25"  },
   {
@@ -86,5 +86,12 @@
     "name": "Baldi's Basics",
     "path": "/baldis-basics/index.html",
     "image": "/images/baldis-basics.png",
-    "dateAdded": "2024-01-05"  }
+    "dateAdded": "2024-01-05"  
+  },
+  {
+    "name": "Drive Mad",
+    "path": "/drive-mad-main/drive-mad-main/index.html",
+    "image": "/images/drivemad.png",
+    "dateAdded": "2024-02-26"
+  }
 ]
