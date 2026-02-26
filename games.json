@@ -111,5 +111,47 @@
     "path": "/hollow-knight/index.html",
     "image": "/images/hollowknight.png",
     "dateAdded": "2024-01-09"
+  },
+  {
+    "name": "Geometry Dash",
+    "path": "/geometry-dash/index.html",
+    "image": "/images/geometrydash.png",
+    "dateAdded": "2024-01-09"
+  },
+  {
+    "name": "Gorogoa",
+    "path": "/gorogoa/index.html",
+    "image": "/images/gorogoa.png",
+    "dateAdded": "2024-01-09"
+  },
+  {
+    "name": "Limbo",
+    "path": "/limbo/index.html",
+    "image": "/images/limbo.png",
+    "dateAdded": "2024-01-09"
+  },
+  {
+    "name": "Minecraft Classic",
+    "path": "/minecraft-classic/index.html",
+    "image": "/images/minecraftclassic.png",
+    "dateAdded": "2024-01-09"
+  },
+  {
+    "name": "Portal: The Flash Version",
+    "path": "/portal-the-flash-version/index.html",
+    "image": "/images/portaltheflashversion.png",
+    "dateAdded": "2024-01-09"
+  },
+  {
+    "name": "QWOP",
+    "path": "/qwop/index.html",
+    "image": "/images/qwop.png",
+    "dateAdded": "2024-01-09"
+  },
+  {
+    "name": "Super Mario Bros. Crossover",
+    "path": "/super-mario-bros-crossover/index.html",
+    "image": "/images/supermariobroscrossover.png",
+    "dateAdded": "2024-01-09"
   }
 ]
