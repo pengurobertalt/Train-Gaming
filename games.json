@@ -107,9 +107,9 @@
     "dateAdded": "2024-02-26"
   },
   {
-    "name": "Hollow Knight",
-    "path": "/hollow-knight/index.html",
-    "image": "/images/hollowknight.png",
+    "name": "Doom",
+    "path": "/Doom-In-Docker-master/Doom-In-Docker-master/doom/public/index.html",
+    "image": "/images/doom1.jpeg",
     "dateAdded": "2024-01-09"
   },
   {
