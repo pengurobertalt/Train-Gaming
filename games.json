@@ -102,7 +102,7 @@
   },
   {
     "name": "Delta Rune Boss Fight",
-    "path": "/one-file-games/bad-time-simulator.html",
+    "path": "/badtimesim/bad-time-simulator.html",
     "image": "/images/deltarune-boss-fight.png",
     "dateAdded": "2024-02-26"
   },
@@ -119,10 +119,10 @@
     "dateAdded": "2024-01-09"
   },
   {
-    "name": "Gorogoa",
-    "path": "/gorogoa/index.html",
-    "image": "/images/gorogoa.png",
-    "dateAdded": "2024-01-09"
+    "name": "MineSweeper",
+    "path": "/minesweeper.github.io-master/minesweeper.github.io-master/index.html",
+    "image": "/images/minesweeper.png",
+    "dateAdded": "2024-02-27"
   },
   {
     "name": "Limbo",
