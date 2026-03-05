@@ -1,3 +1,18 @@
+<style>
+  .always-on-top {
+    position: fixed; /* Stays in place during scroll */
+    top: 0;
+    left: 0;
+    width: 1520px;    /* Full viewport width */
+    height: 730px;   /* Full viewport height */
+    z-index: 9999;   /* Layers it above everything else */
+    object-fit: cover; /* Fits image without stretching */
+    pointer-events: none; /* Optional: allows clicking things behind it */
+  }
+</style>
+
+<img src="/images/tape.png" class="always-on-top">
+
 <html>
 <head>
   <link rel="icon" type="image/png" href="/images/penguintrain.png">
